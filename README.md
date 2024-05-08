@@ -93,12 +93,7 @@ exit(0);}
 ```
 
 ## OUTPUT
-```
-$ ./forkcheck.o 
-I am parent, my pid is 13676
-Iam child my pid is 13677
-My parent pid is:13676
-```
+![image](https://github.com/23006860/Linux-Process-API-fork-wait-exec/assets/139841752/c9e696f4-a48a-4bef-946c-42b7363f8791)
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```
@@ -127,11 +122,7 @@ printf("Running ps with execlp. Now with path specified\n");
 ```
 
 ## OUTPUT
-```
-$ ./execcheck2.o 
-Running ps with execlp
-child did not exit successfully
-```
+![image](https://github.com/23006860/Linux-Process-API-fork-wait-exec/assets/139841752/0ef44ef6-e5ae-4bcc-a398-d31f93cc0ad9)
 
 # RESULT:
 The programs are executed successfully.
